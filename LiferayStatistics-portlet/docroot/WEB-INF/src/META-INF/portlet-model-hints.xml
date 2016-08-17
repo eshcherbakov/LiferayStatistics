@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="ru.inrecolan.statistics.model.Statistics">
+		<field name="statId" type="long" />
+		<field name="userId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="actionDate" type="Date" />
+		<field name="action" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+		<field name="portletId" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+		<field name="url" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+	</model>
+</model-hints>

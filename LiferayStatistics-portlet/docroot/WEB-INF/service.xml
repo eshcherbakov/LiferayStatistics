@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.1.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_1_0.dtd">
+
+<service-builder package-path="ru.inrecolan.statistics">
+	<author>sea</author>
+	<namespace>Statistics</namespace>
+	<entity name="Statistics" local-service="true">
+		<column name="statId" type="long" primary="true"></column>
+		<column name="userId" type="long"></column>
+		<column name="groupId" type="long"></column>		
+		<column name="actionDate" type="Date"></column>
+		<column name="action" type="String"></column>
+		<column name="portletId" type="String"></column>
+		<column name="url" type="String" ></column>		
+	</entity>
+</service-builder>

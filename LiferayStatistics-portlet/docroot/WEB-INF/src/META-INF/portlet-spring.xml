@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="ru.inrecolan.statistics.service.StatisticsLocalService" class="ru.inrecolan.statistics.service.impl.StatisticsLocalServiceImpl" />
+	<bean id="ru.inrecolan.statistics.service.StatisticsService" class="ru.inrecolan.statistics.service.impl.StatisticsServiceImpl" />
+	<bean id="ru.inrecolan.statistics.service.persistence.StatisticsPersistence" class="ru.inrecolan.statistics.service.persistence.StatisticsPersistenceImpl" parent="basePersistence" />
+</beans>

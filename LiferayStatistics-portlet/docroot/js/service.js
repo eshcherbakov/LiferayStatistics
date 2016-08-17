@@ -1,0 +1,1 @@
+Liferay.Service.register("Liferay.Service.Statistics", "ru.inrecolan.statistics.service", "Statistics-portlet");
